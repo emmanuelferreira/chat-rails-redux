@@ -14,7 +14,7 @@ const channels = JSON.parse(chatContainer.dataset.channels).map(c => c.name);
 
 const initialState = {
   messages: [],
-  channels: channels, // TODO: get that from Rails DB.
+  channels: channels //
 };
 
 const reducers = combineReducers({

@@ -1,5 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  font-size: 14px;
 }
 
 .messaging-wrapper {
@@ -50,6 +52,9 @@ body {
   font-size: 14px;
   color: #7c7c7c;
   cursor: pointer;
+  a {
+    color: black;
+  }
 }
 
 .channels-container > ul > li.active {
@@ -136,4 +141,15 @@ button {
   color: white;
   font-size: 14px;
   font-weight: 600;
+}
+.center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#new_user {
+  width: 100%;
 }
