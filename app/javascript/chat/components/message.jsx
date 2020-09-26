@@ -17,7 +17,7 @@ const Message = (props) => {
   return (
     <div className="message-container">
       <i className="author">
-        <span style={{ color: strToRGB(props.user.email) }}>{props.user.email}</span>
+        <span style={{ color: strToRGB(props.message.user.email) }}>{props.message.user.email}</span>
         <small>{time}</small>
       </i>
       <p>{emojify(props.message.content)}</p>
